@@ -67,7 +67,7 @@ public class MainTest {
         assertEquals(list.get(0).getFirstname(), "Burak");
     }
 
-    @DisplayName("calculatedWord method doğru çalışıyor mu?")
+    @DisplayName("calculateWord method doğru çalışıyor mu?")
     @Test
     public void testCalculateWordMethod() {
         Map<String, Integer> map = WordCounter.calculatedWord();
